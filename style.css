@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.am-section {
+  background-color: white;
+  padding: 54px 0;
+}
+
+.am-row {
+  padding: 20px 0;
+  max-width: 1380px;
+  width: 80%;
+  margin: auto;
+}
+
+.am-row_col-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 60px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1,
+p {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 1.3em;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.7em;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+header.am-section {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.main-menu li {
+  list-style: none;
+  font-weight: 500;
+}
+
+.main-menu .cta {
+  background-color: #ff8269;
+  padding: 12px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.default-row {
+  width: 90%;
+  margin: auto;
+  padding: 18px 0;
+}
+
+.row_col-2 {
+  grid-template-columns: 65% 35%;
+  padding: 0px 0;
+  text-align: center;
+  align-items: center;
+}
+
+.row_col-2 h1 {
+  text-transform: uppercase;
+}
+
+.row_col-2 h1 span {
+  color: #ff8269;
+}
+
+.row_col-2 p {
+  font-size: 24px;
+  max-width: 600px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background-color: #ff8269;
+  color: white;
+  border: 2px solid #ff8269;
+  border-radius: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+.hero-section {
+  background-color: #fff6ef;
+  background-image: url(/images/hero-bg.png);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10vw;
+}
+
+img {
+  display: block;
+}
+
+.message {
+  background-color: var(--student-background, #fff);
+  color: var(--student-color, #000);
+  font-family: var(--student-font, "Times New Roman", serif);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+[data-student-theme="rachel"] {
+  --student-background: rgb(43, 25, 61);
+  --student-color: rgb(252, 249, 249);
+  --student-font: Arial, sans-serif;
+}
+
+[data-student-theme="jen"] {
+  --student-background: #d55349;
+  --student-color: #000;
+  --student-font: Avenir, Helvetica, sans-serif;
+}
+
+[data-student-theme="tyler"] {
+  --student-background: blue;
+  --student-color: yellow;
+  --student-font: "Comic Sans MS", "Comic Sans", cursive;
+}
